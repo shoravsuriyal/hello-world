@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <h2> Post Interview Data </h2>
+        <form action= "/script.py" method="get">
+            Did the Applicant Demonstrate Knowledge of Company?
+            <select name="Demonstrated Knowledge of Company?">
+                <option value="1"> Yes </option>
+                <option value="0"> No </option>
+            </select><br>
+            Did Research
+            <input type = "radio" name = "did_research" value = "1"> Yes </input>
+            <input type = "radio" name = "did_research" value = "0"> No </input></br>
+            Interview Time: <input type="text" name= "interview_time_min"></input><br>
+            Number of Questions Asked: <input type= "text" name ="num_questions_asked"></input></br>
+            Technical Question 1 Handled Successfully? 
+            <input type ="radio" name = "tech_Q_1" value = "1"> Yes </input>
+            <input type ="radio" name = "tech_Q_1" value = "0"> No </input><br>
+            Technical Question 2 Handled Successfully? 
+            <input type ="radio" name = "tech_Q_2" value = "1"> Yes </input>
+            <input type ="radio" name = "tech_Q_2" value = "0"> No </input><br>
+            Rate the Applicants Personality 
+            <select name="personality">
+                <option value="1"> Quiet </option>
+                <option value="2"> Average </option>
+                <option value="3"> Outgoing </option>
+            </select><br>
+            Previous Salary <input type="text" name = "salary_prev"></input><br>
+            Expected Salary <input type="text" name = "salary_expect"></input><br> 
+            <input type="submit"></input>
+        </form>
+    </body>
+</html>
